@@ -1,0 +1,215 @@
+body {
+    background: #f4f2ec url(../img/fundo.png) repeat-x;
+    font: 12px "lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+    color: #b46b0d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #793d00;
+}
+
+/* Logo
+---------------------------------- */
+#logo a{
+    background: url(../img/logo.png);
+    text-indent: -9999px;
+    display: block;
+    width: 248px;
+    height: 21px;
+}
+
+#logo h1 {
+    float: left;
+}
+
+/* Nav bar
+---------------------------------- */
+header {
+    padding: 15px 0px;
+    height: 55px;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px;
+}
+
+nav ul li {
+    float: left;
+    margin: 0px 7px;
+}
+
+nav ul li a:link {
+    display: block;;
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #b46b0d;
+}
+
+nav ul li a:active {
+    background-color: #db9a2a;
+}
+
+/* Main
+---------------------------- */
+#content {
+    width: 710px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+aside {
+    float: right;
+    width: 350px;
+    background: #ebe7dd;
+	padding-bottom: 40px;
+}
+
+section#tour {
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+section#gallery {
+    padding: 0px 27px 0px 27px;
+}
+
+section#gallery a {
+    background: url(../img/fundo-foto.png);
+    display: block;
+    float: left;
+    padding: 9px 7px 4px 7px;
+    margin: 10px 0px 0px 15px;
+}
+
+section#gallery img {
+    padding: 5px;
+    margin: 5px;
+}
+
+article.video {
+    width: 310px;
+    float: left;
+    margin-left: 25px;
+}
+
+article.video2 {
+    width: 310px;
+    float: left;
+    margin-left: 37px;
+}
+
+article#map {
+    width: 310px;
+    float: left;
+    margin-left: 37px;
+}
+
+article#expositions {
+    width: 310px;
+    float: left;
+    margin: 15px 0px 0px 25px;
+    font-weight: 800;
+}
+
+article#history {
+    width: 310px;
+    float: left;
+    margin: 15px 0px 20px 25px;
+    height: 610px;
+}
+
+h3 {
+    font-size: 1em;
+    color: #714b15;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: #86521a;
+    padding-bottom: 3px;
+	margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+/* Form
+---------------------------- */
+fieldset {
+    border: none;
+}
+
+#tour legend {
+	display: none;
+}
+
+input {
+    width: 150px;
+    height: 20x;
+    font-size: 1em;
+
+}
+
+input.border {
+    border:1px solid #ada484;
+}
+
+input#qty {
+    width: 30px;
+}
+
+input.button {
+    border:1px solid #ada484;
+    background: #9b9271;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+input.button:hover {
+    background: #a89e80;
+}
+
+input.button:active {
+    background: #e8d9bf;
+    border: 1px solid #b9b398;
+    color: #cca586;
+}
+
+/* Footer
+----------------------------- */
+footer {
+    padding: 20px 0px 30px 0px;
+    text-align: center;
+    background: url(../img/fundo-rodape.png) no-repeat center top;
+    margin-top: 20px;
+}
+
+
+footer p a {
+    padding: 10px;
+}
